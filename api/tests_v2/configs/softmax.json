@@ -6,8 +6,8 @@
             "value": "-1"
         },
         "x": {
-            "dtype": "float32",
-            "shape": "[-1L, 1000L]",
+            "dtype": "float16",
+            "shape": "[71680L, 4L]",
             "type": "Variable"
         }
     }
@@ -19,21 +19,8 @@
             "value": "-1"
         },
         "x": {
-            "dtype": "float32",
-            "shape": "[-1L, 16L, -1L, -1L]",
-            "type": "Variable"
-        }
-    }
-}, {
-    "op": "softmax",
-    "param_info": {
-        "axis": {
-            "type": "int",
-            "value": "0"
-        },
-        "x": {
-            "dtype": "float32",
-            "shape": "[128L, 128L, 16L, 16L]",
+            "dtype": "float16",
+            "shape": "[71680L, 6L]",
             "type": "Variable"
         }
     }
@@ -45,7 +32,98 @@
             "value": "-1"
         },
         "x": {
-            "dtype": "float32",
+            "dtype": "float16",
+            "shape": "[71680L, 7L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[71680L, 8L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[71680L, 9L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[71680L, 20L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[71680L, 24L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[150L, 16L,30L,30L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 31L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
             "shape": "[16L, 32L]",
             "type": "Variable"
         }
@@ -58,7 +136,20 @@
             "value": "-1"
         },
         "x": {
-            "dtype": "float32",
+            "dtype": "float16",
+            "shape": "[150L, 16L,33L,33L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
             "shape": "[16L, 42L]",
             "type": "Variable"
         }
@@ -71,7 +162,46 @@
             "value": "-1"
         },
         "x": {
-            "dtype": "float32",
+            "dtype": "float16",
+            "shape": "[16L, 43L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 70L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 127L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
             "shape": "[16L, 128L]",
             "type": "Variable"
         }
@@ -84,7 +214,202 @@
             "value": "-1"
         },
         "x": {
-            "dtype": "float32",
+            "dtype": "float16",
+            "shape": "[16L, 150L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 170L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 200L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 256L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 270L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 290L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 300L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 320L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 340L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 360L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 380L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 400L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 410L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 420L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 511L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
             "shape": "[16L, 512L]",
             "type": "Variable"
         }
@@ -97,8 +422,73 @@
             "value": "-1"
         },
         "x": {
-            "dtype": "float32",
+            "dtype": "float16",
+            "shape": "[16L, 650L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
             "shape": "[16L, 700L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 701L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 800L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 930L]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[16L, 1020L]",
             "type": "Variable"
         }
     }
