@@ -306,9 +306,9 @@ def test_main_without_json(pd_obj=None,
                         print(
                             "Paddle's {}-th output is a np.ndarray, the shape is {}.".
                             format(i, out.shape))
-            if args.log_level == 2:
-                print("Output of Paddle: ", base_outputs)
-                print("Output of TensorFlow: ", compare_outputs)
+            #if args.log_level == 2:
+            print("Output of Paddle: ", base_outputs)
+            print("Output of Pytorch: ", compare_outputs)
             utils.check_outputs(
                 base_outputs,
                 compare_outputs,

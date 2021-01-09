@@ -492,4 +492,17 @@
             "type": "Variable"
         }
     }
+}, {
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "float16",
+            "shape": "[4L, 2L]",
+            "type": "Variable"
+        }
+    }
 }]

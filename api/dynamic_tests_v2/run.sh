@@ -17,7 +17,7 @@ task=${3:-"accuracy"} # "accuracy" or "speed"
 
 testing_mode="dynamic" # "static" or "dynamic"
 framework="pytorch"  # "paddle" or "tensorflow" or "pytorch"
-framework="paddle"  # "paddle" or "tensorflow" or "pytorch"
+#framework="paddle"  # "paddle" or "tensorflow" or "pytorch"
 filename="${OP_BENCHMARK_ROOT}/tests_v2/configs/${name}.json"
 if [ -z "$CUDA_VISIBLE_DEVICES" ]; then
     use_gpu=False
@@ -32,11 +32,11 @@ run_args="--task ${task} \
           --config_id ${config_id} \
           --check_output False \
           --profiler none \
-          --backward False \
+          --backward True \
           --use_gpu ${use_gpu} \
           --repeat 1000 \
           --allow_adaptive_repeat False \
-          --log_level 0"
+          --log_level 2"
 
 if [ $# -ge 4 ]; then
   api_name=${4}
