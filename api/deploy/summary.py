@@ -442,7 +442,7 @@ if __name__ == '__main__':
     if args.specified_op_list:
         specified_op_list = args.specified_op_list.split()
 
-    compare_framework = None
+    compare_framework = 'pytorch'
     for filename in sorted(filenames):
         framework = get_job_res(
             os.path.join(op_result_dir, filename), specified_op_list)
