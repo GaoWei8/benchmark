@@ -70,14 +70,20 @@ def remove_duplicates(args):
                     ):
                         op = special_op_list.ALIAS_OP_MAP[op]
                     param = data[i]["param_info"]
+                    if op == 'softmax':
+                        print('1 concat')
+                        print(param)
                     if clear_params.check_frequency(op, param):
                         op_file_dict[op] = op_file_dict.get(op, 0) + 1
                         op_dicts_sum[op] = op_dicts_sum.get(op, 0) + 1
                     if not clear_params.check_removable(op, param):
-                        clear_params.check_and_clear_params(op, param)
+                        #clear_params.check_and_clear_params(op, param)
                         if op not in op_list:
                             op_list.append(op)
                             params_list.append(param)
+                            if op == 'softmax':
+                                print('2 concat')
+                                print(param)
                             result_json.append(data[i])
                         else:
                             dup_index = get_index(op_list, op)
@@ -89,6 +95,7 @@ def remove_duplicates(args):
                                 op_list.append(op)
                                 params_list.append(param)
                                 result_json.append(data[i])
+                                #print(result_json)
             f.close()
             op_frequency_each[file] = op_file_dict
 
