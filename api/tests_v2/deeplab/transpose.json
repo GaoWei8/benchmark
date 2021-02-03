@@ -1,0 +1,40 @@
+[{
+    "op": "transpose",
+    "param_info": {
+        "perm": {
+            "type": "list",
+            "value": "[0, 2, 3, 1]"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 19, 512, 1024]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "transpose",
+    "param_info": {
+        "perm": {
+            "type": "list",
+            "value": "[0, 3, 1, 2]"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 512, 1024, 19]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "transpose",
+    "param_info": {
+        "perm": {
+            "type": "list",
+            "value": "[0, 2, 3, 1]"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 19, 1024, 2048]",
+            "type": "Variable"
+        }
+    }
+}]

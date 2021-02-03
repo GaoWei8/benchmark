@@ -1,0 +1,53 @@
+[{
+    "op": "concat",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "1"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "concat",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "1"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 48, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "concat",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "1"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "concat",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "1"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 48, 256, 512]",
+            "type": "Variable"
+        }
+    }
+}]

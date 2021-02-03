@@ -1,0 +1,9 @@
+[{
+    "op": "assign",
+    "param_info": {
+        "output": {
+            "type": "string",
+            "value": "None"
+        }
+    }
+}]

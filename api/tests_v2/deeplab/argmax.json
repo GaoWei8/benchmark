@@ -1,0 +1,43 @@
+[{
+    "op": "argmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "3"
+        },
+        "dtype": {
+            "type": "string",
+            "value": "int64"
+        },
+        "keepdim": {
+            "type": "bool",
+            "value": "False"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 512, 1024, 19]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "argmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "3"
+        },
+        "dtype": {
+            "type": "string",
+            "value": "int64"
+        },
+        "keepdim": {
+            "type": "bool",
+            "value": "False"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 2048, 19]",
+            "type": "Variable"
+        }
+    }
+}]

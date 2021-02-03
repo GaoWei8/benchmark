@@ -1,0 +1,6722 @@
+[{
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 32, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bnv1_1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bnv1_1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 32, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bnv1_2_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bnv1_2_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bnv1_3_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bnv1_3_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3d_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3d_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3d_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3d_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3d_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3d_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4d_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4d_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4d_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4d_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4d_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4d_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4e_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4e_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4e_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4e_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4e_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4e_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4f_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4f_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4f_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4f_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4f_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4f_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 1, 1]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/image_pool/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/image_pool/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp0/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp0/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp1/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp1/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp1/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp1/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp2/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp2/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp2/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp2/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp3/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp3/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp3/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp3/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/concat/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/concat/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 48, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/concat/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "decoder/concat/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 304, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv1/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv1/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv1/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv1/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv2/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv2/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv2/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv2/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 32, 512, 1024]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bnv1_1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bnv1_1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 32, 512, 1024]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bnv1_2_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bnv1_2_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 512, 1024]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bnv1_3_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bnv1_3_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 64, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn2c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn2c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3d_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3d_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 128, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3d_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3d_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn3d_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn3d_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4d_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4d_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4d_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4d_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4d_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4d_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4e_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4e_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4e_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4e_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4e_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4e_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4f_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4f_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4f_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4f_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn4f_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn4f_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5a_branch1_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5a_branch1_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5b_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5b_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5b_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5b_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5b_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5b_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5c_branch2a_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5c_branch2a_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "relu"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5c_branch2b_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5c_branch2b_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.9"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "bn5c_branch2c_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "bn5c_branch2c_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp0/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp0/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp1/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp1/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp1/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp1/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp2/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp2/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp2/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp2/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp3/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp3/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/aspp3/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/aspp3/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "encoder/concat/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "encoder/concat/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 48, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/concat/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value": "decoder/concat/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 304, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv1/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv1/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv1/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv1/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv2/depthwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv2/depthwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}, {
+    "op": "batch_norm",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "data_layout": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "do_model_average_for_mean_and_var": {
+            "type": "bool",
+            "value": "True"
+        },
+        "epsilon": {
+            "type": "float",
+            "value": "1e-05"
+        },
+        "in_place": {
+            "type": "bool",
+            "value": "False"
+        },
+        "input": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        },
+        "is_test": {
+            "type": "bool",
+            "value": "False"
+        },
+        "momentum": {
+            "type": "float",
+            "value": "0.99"
+        },
+        "moving_mean_name": {
+            "type": "string",
+            "value": "decoder/separable_conv2/pointwise/BatchNorm/moving_mean"
+        },
+        "moving_variance_name": {
+            "type": "string",
+            "value":
+            "decoder/separable_conv2/pointwise/BatchNorm/moving_variance"
+        },
+        "use_global_stats": {
+            "type": "bool",
+            "value": "False"
+        }
+    }
+}]

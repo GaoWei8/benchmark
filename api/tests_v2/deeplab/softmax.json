@@ -1,0 +1,13 @@
+[{
+    "op": "softmax",
+    "param_info": {
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "use_cudnn": {
+            "type": "bool",
+            "value": "True"
+        }
+    }
+}]

@@ -1,0 +1,109 @@
+[{
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 512, 64, 128]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 64, 128]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 64, 128]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 1, 1]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 48, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 256, 512]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 512, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 2048, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "relu",
+    "param_info": {
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 48, 256, 512]",
+            "type": "Variable"
+        }
+    }
+}]

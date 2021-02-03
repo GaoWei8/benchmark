@@ -1,0 +1,18 @@
+[{
+    "op": "mean",
+    "param_info": {
+        "axis": {
+            "type": "list",
+            "value": "[0]"
+        },
+        "keepdim": {
+            "type": "bool",
+            "value": "False"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 1]",
+            "type": "Variable"
+        }
+    }
+}]

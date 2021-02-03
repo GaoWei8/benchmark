@@ -1,0 +1,45 @@
+[{
+    "op": "elementwise_min",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "int32",
+            "shape": "[2, 1, 512, 1024]",
+            "type": "Variable"
+        },
+        "y": {
+            "dtype": "int32",
+            "shape": "[1]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "elementwise_min",
+    "param_info": {
+        "act": {
+            "type": "string",
+            "value": "None"
+        },
+        "axis": {
+            "type": "int",
+            "value": "-1"
+        },
+        "x": {
+            "dtype": "int32",
+            "shape": "[2, 1, 1024, 2048]",
+            "type": "Variable"
+        },
+        "y": {
+            "dtype": "int32",
+            "shape": "[1]",
+            "type": "Variable"
+        }
+    }
+}]

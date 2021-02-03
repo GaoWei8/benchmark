@@ -1,0 +1,37 @@
+[{
+    "op": "pool2d",
+    "param_info": {
+        "ceil_mode": {
+            "type": "bool",
+            "value": "False"
+        },
+        "data_format": {
+            "type": "string",
+            "value": "NCHW"
+        }
+    }
+}, {
+    "op": "pool2d",
+    "param_info": {
+        "ceil_mode": {
+            "type": "bool",
+            "value": "True"
+        },
+        "data_format": {
+            "type": "string",
+            "value": "NCHW"
+        },
+        "exclusive": {
+            "type": "bool",
+            "value": "True"
+        }
+    }
+}, {
+    "op": "pool2d",
+    "param_info": {
+        "data_format": {
+            "type": "string",
+            "value": "NCHW"
+        }
+    }
+}]

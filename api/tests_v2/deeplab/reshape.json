@@ -1,0 +1,79 @@
+[{
+    "op": "reshape",
+    "param_info": {
+        "shape": {
+            "type": "list",
+            "value": "[2, 19]"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 512, 1024, 19]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "reshape",
+    "param_info": {
+        "shape": {
+            "type": "list",
+            "value": "[2, 1]"
+        },
+        "x": {
+            "dtype": "int32",
+            "shape": "[2, 1, 512, 1024]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "reshape",
+    "param_info": {
+        "shape": {
+            "type": "list",
+            "value": "[2, 1]"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 1, 512, 1024]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "reshape",
+    "param_info": {
+        "shape": {
+            "type": "list",
+            "value": "[2, 19]"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 1024, 2048, 19]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "reshape",
+    "param_info": {
+        "shape": {
+            "type": "list",
+            "value": "[2, 1]"
+        },
+        "x": {
+            "dtype": "int32",
+            "shape": "[2, 1, 1024, 2048]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "reshape",
+    "param_info": {
+        "shape": {
+            "type": "list",
+            "value": "[2, 1]"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 1, 1024, 2048]",
+            "type": "Variable"
+        }
+    }
+}]

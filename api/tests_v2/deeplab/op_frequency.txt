@@ -1,0 +1,38 @@
+======================================================
+  API_INFO.json
+======================================================
+1    conv2d                                  140
+2    batch_norm                              138
+3    relu                                    52
+4    pool2d                                  6
+5    transpose                               6
+6    reshape                                 6
+7    concat                                  4
+8    cast                                    4
+9    mean                                    4
+10   dropout                                 2
+11   assign                                  2
+12   elementwise_min                         2
+13   softmax_with_cross_entropy              2
+14   argmax                                  2
+15   softmax                                 1
+
+======================================================
+  Summary of 1 models
+======================================================
+1    conv2d                                  140
+2    batch_norm                              138
+3    relu                                    52
+4    pool2d                                  6
+5    transpose                               6
+6    reshape                                 6
+7    concat                                  4
+8    cast                                    4
+9    mean                                    4
+10   dropout                                 2
+11   assign                                  2
+12   elementwise_min                         2
+13   softmax_with_cross_entropy              2
+14   argmax                                  2
+15   softmax                                 1
+

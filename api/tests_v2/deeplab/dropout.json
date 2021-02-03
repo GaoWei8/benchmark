@@ -1,0 +1,27 @@
+[{
+    "op": "dropout",
+    "param_info": {
+        "seed": {
+            "type": "string",
+            "value": "None"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 64, 128]",
+            "type": "Variable"
+        }
+    }
+}, {
+    "op": "dropout",
+    "param_info": {
+        "seed": {
+            "type": "string",
+            "value": "None"
+        },
+        "x": {
+            "dtype": "float32",
+            "shape": "[2, 256, 128, 256]",
+            "type": "Variable"
+        }
+    }
+}]
